@@ -1,0 +1,270 @@
+body{
+    width: 900px;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+marquee{
+  color: white;
+  font-size: 25px;
+  transform: translate(0, 600px);
+ 
+}
+
+
+.home{
+    background-color: rgba(138, 98, 53, 0.664);
+    position: sticky;
+    font-family:sans-serif;
+    top: 0;
+    margin: 0;
+    
+
+
+}
+
+.home ul li{
+    
+    display: inline-block;
+    list-style-type: none;
+    padding: 30px 20px;
+    margin-left: 10%;
+    
+}
+.home ul li a{
+    text-decoration: none;
+    color: white;
+
+
+
+ }
+.home ul li:hover{
+    color: blue;
+    padding: 10px 20px;
+    background-color: rgb(233, 171, 90);
+    
+
+}
+#panelpic{
+
+    width: 600px;
+    height: 600px;
+    font-size: 350px;
+    color:rgb(233, 210, 210);
+    margin-left: 60px;
+    margin-top: -300px;
+    
+}
+.log a{
+    color:white;
+    float: right;
+    font-size: small;
+}
+
+.log{
+    
+    position: relative;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    padding: 50px;
+    transform: translate(100px,300px);
+    
+    box-sizing: border-box;
+    border-style: dotted;
+    border-color: thistle;
+
+
+
+}
+.log h2{
+    font-size: 30px;
+}
+
+.log .but{
+    background : none;
+    padding: 12px;
+    width:80px;
+    box-sizing: border-box;
+    height: 40px;
+    border: 2px solid ;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: rgb(47, 240, 47);
+    color:rgb(47, 240, 47) ;
+
+}
+.log .but:hover{
+    color:white;
+    background-color: rgb(47, 240, 47);
+    cursor: pointer;
+   
+}
+h5{
+    color: thistle;
+}
+.log input[type=text] , .log input[type=password]{
+    border: 0;
+    overflow: hidden;
+    padding: 12px;
+    width:100%;
+    height: 40px;
+    color:white;
+    border: none;
+    outline: none;
+    background: none;
+    border: 2px solid ;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: thistle;
+   
+}
+.log input[type=text]:hover ,.log input[type=password]:hover {
+    border-color: rgb(47, 240, 47);
+    
+    
+    
+
+}
+
+.log input[type=text]:focus ,.log input[type=password]:focus{
+
+    width: 210px;
+}
+
+
+
+
+
+.full{
+
+}
+
+.menu{
+    position:fixed;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    margin:0;
+    top: 0;
+    background-color: rgb(236, 184, 184);
+    transition: all .5s ease;
+  
+
+}
+.menu h2 {
+    color: black;
+    padding-left: 60px;
+    margin-top: 10px;
+    
+}
+.menu ul{
+    margin: 20px;
+    background: rgb(229, 248, 229);
+    height:350px;
+    margin-bottom: 100%;
+}
+
+.menu ul li{
+    list-style: none;
+    font-family: serif;
+    padding: 20px;
+
+}
+
+.menu ul li a{
+    text-decoration: none;
+    
+    
+}
+
+
+.menu ul li a:hover{
+    
+    color:black;
+    padding-left: 10px;
+    
+    
+    
+}
+label #btn,label #cancel{
+    position:absolute;
+    cursor:pointer;
+
+}
+label #btn{
+    left: 40px;
+    top: 25px;
+    font-size: 35px;
+    color: rgb(14, 9, 9);
+    padding: 6px 12px;
+    border: 3px solid ;
+    border-radius: 8px;
+    transition: all .5s;
+}
+#check{
+    display: none;
+
+}
+
+label #cancel{
+    position: fixed;
+    z-index: 1111;
+    left: -215px;
+    top:8px;
+    padding: 4px 9px;
+    border: 1px solid ;
+    transition: all .5s;
+}
+#check:checked ~ .menu{
+    left: 0;
+
+}
+#check:checked~ label #btn{
+    left:0;
+
+}
+#check:checked~ label #cancel{
+    left:215px;
+
+
+}
+
+.details , .abt ,.description{
+    text-align: center;
+    padding: 30px;
+    margin-top: 10%;
+    height: 50%;
+    width: 800px;
+    margin-left: 50px;
+    background-color: thistle;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: bold;  
+    font-style: italic;
+    border-radius: 15px;
+}
+.details a,.abt a, .description a{
+    text-decoration: none;
+}
+
+
+.ftr{
+    
+    text-align: center;
+    background-color: rgb(233, 233, 111);
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 30px 20px;
+
+}
